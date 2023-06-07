@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115EE5722A2FBA55003E7B49 /* Bacteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115EE5712A2FBA55003E7B49 /* Bacteria.swift */; };
+		115EE5742A2FBC81003E7B49 /* BacteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115EE5732A2FBC81003E7B49 /* BacteriaView.swift */; };
+		115EE5762A2FC26A003E7B49 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115EE5752A2FC26A003E7B49 /* GameBoard.swift */; };
 		11F03AAB29DC505D00B6CB03 /* BioBlitzGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F03AAA29DC505D00B6CB03 /* BioBlitzGameApp.swift */; };
 		11F03AAD29DC505D00B6CB03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F03AAC29DC505D00B6CB03 /* ContentView.swift */; };
 		11F03AAF29DC505F00B6CB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F03AAE29DC505F00B6CB03 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		115EE5712A2FBA55003E7B49 /* Bacteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bacteria.swift; sourceTree = "<group>"; };
+		115EE5732A2FBC81003E7B49 /* BacteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacteriaView.swift; sourceTree = "<group>"; };
+		115EE5752A2FC26A003E7B49 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 		11F03AA729DC505D00B6CB03 /* BioBlitzGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioBlitzGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F03AAA29DC505D00B6CB03 /* BioBlitzGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBlitzGameApp.swift; sourceTree = "<group>"; };
 		11F03AAC29DC505D00B6CB03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 			children = (
 				11F03AAA29DC505D00B6CB03 /* BioBlitzGameApp.swift */,
 				11F03AAC29DC505D00B6CB03 /* ContentView.swift */,
+				115EE5752A2FC26A003E7B49 /* GameBoard.swift */,
+				115EE5712A2FBA55003E7B49 /* Bacteria.swift */,
+				115EE5732A2FBC81003E7B49 /* BacteriaView.swift */,
 				11F03AAE29DC505F00B6CB03 /* Assets.xcassets */,
 				11F03AB329DC505F00B6CB03 /* BioBlitzGame.entitlements */,
 				11F03AB029DC505F00B6CB03 /* Preview Content */,
@@ -141,6 +150,9 @@
 			files = (
 				11F03AAD29DC505D00B6CB03 /* ContentView.swift in Sources */,
 				11F03AAB29DC505D00B6CB03 /* BioBlitzGameApp.swift in Sources */,
+				115EE5762A2FC26A003E7B49 /* GameBoard.swift in Sources */,
+				115EE5722A2FBA55003E7B49 /* Bacteria.swift in Sources */,
+				115EE5742A2FBC81003E7B49 /* BacteriaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +210,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -253,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
