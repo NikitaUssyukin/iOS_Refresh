@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     var countries = [String]()
     var correctAnswer = 0
     var score = 0
+    var numberOfQuestionsAsked = 0
+    let questionLimit = 10
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,15 +41,29 @@ class ViewController: UIViewController {
     }
 
     func askQuestion(action: UIAlertAction! = nil) {
-        countries.shuffle()
-        
-        button1.setImage(UIImage(named: countries[0]), for: .normal)
-        button2.setImage(UIImage(named: countries[1]), for: .normal)
-        button3.setImage(UIImage(named: countries[2]), for: .normal)
-        
-        correctAnswer = Int.random(in: 0...2)
-        
-        title = countries[correctAnswer].uppercased()
+        if numberOfQuestionsAsked < questionLimit {
+            numberOfQuestionsAsked += 1
+            
+            countries.shuffle()
+            
+            button1.setImage(UIImage(named: countries[0]), for: .normal)
+            button2.setImage(UIImage(named: countries[1]), for: .normal)
+            button3.setImage(UIImage(named: countries[2]), for: .normal)
+            
+            correctAnswer = Int.random(in: 0...2)
+            
+            title = countries[correctAnswer].uppercased() + ", Score: \(score)"
+        } else {
+            let ac = UIAlertController(title: "Game Over", message: "FINAL SCORE: \(score)", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "Play Again", style: .default, handler: playAgain))
+            present(ac, animated: true)
+        }
+    }
+    
+    func playAgain(action: UIAlertAction!) {
+        score = 0
+        numberOfQuestionsAsked = 0
+        askQuestion()
     }
     
     @IBAction func buttonTapped(_ sender: UIButton) {
@@ -57,7 +73,7 @@ class ViewController: UIViewController {
             title = "Correct"
             score += 1
         } else {
-            title = "Wrong"
+            title = "Wrong, this is the flag of \(countries[sender.tag].uppercased())"
             score -= 1
         }
         
