@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1142D88F2A3CDFAB000B1316 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1142D88F2A3CDFAB000B1316 /* Project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1142D8922A3CDFAB000B1316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1142D8942A3CDFAB000B1316 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1142D8962A3CDFAB000B1316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		1142D8862A3CDFAB000B1316 = {
 			isa = PBXGroup;
 			children = (
-				1142D8912A3CDFAB000B1316 /* Project1 */,
+				1142D8912A3CDFAB000B1316 /* Project3 */,
 				1142D8902A3CDFAB000B1316 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		1142D8902A3CDFAB000B1316 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1142D88F2A3CDFAB000B1316 /* Project1.app */,
+				1142D88F2A3CDFAB000B1316 /* Project3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1142D8912A3CDFAB000B1316 /* Project1 */ = {
+		1142D8912A3CDFAB000B1316 /* Project3 */ = {
 			isa = PBXGroup;
 			children = (
 				1142D8922A3CDFAB000B1316 /* AppDelegate.swift */,
@@ -88,7 +88,7 @@
 				1142D8A02A3CDFAC000B1316 /* Info.plist */,
 				1142D8A62A3CE4F8000B1316 /* Content */,
 			);
-			path = Project1;
+			path = Project3;
 			sourceTree = "<group>";
 		};
 		1142D8A62A3CE4F8000B1316 /* Content */ = {
@@ -111,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1142D88E2A3CDFAB000B1316 /* Project1 */ = {
+		1142D88E2A3CDFAB000B1316 /* Project3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1142D8A32A3CDFAC000B1316 /* Build configuration list for PBXNativeTarget "Project1" */;
+			buildConfigurationList = 1142D8A32A3CDFAC000B1316 /* Build configuration list for PBXNativeTarget "Project3" */;
 			buildPhases = (
 				1142D88B2A3CDFAB000B1316 /* Sources */,
 				1142D88C2A3CDFAB000B1316 /* Frameworks */,
@@ -123,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = Project1;
+			name = Project3;
 			productName = Project1;
-			productReference = 1142D88F2A3CDFAB000B1316 /* Project1.app */;
+			productReference = 1142D88F2A3CDFAB000B1316 /* Project3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1142D88A2A3CDFAB000B1316 /* Build configuration list for PBXProject "Project1" */;
+			buildConfigurationList = 1142D88A2A3CDFAB000B1316 /* Build configuration list for PBXProject "Project3" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1142D88E2A3CDFAB000B1316 /* Project1 */,
+				1142D88E2A3CDFAB000B1316 /* Project3 */,
 			);
 		};
 /* End PBXProject section */
@@ -391,7 +391,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1142D88A2A3CDFAB000B1316 /* Build configuration list for PBXProject "Project1" */ = {
+		1142D88A2A3CDFAB000B1316 /* Build configuration list for PBXProject "Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1142D8A12A3CDFAC000B1316 /* Debug */,
@@ -400,7 +400,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1142D8A32A3CDFAC000B1316 /* Build configuration list for PBXNativeTarget "Project1" */ = {
+		1142D8A32A3CDFAC000B1316 /* Build configuration list for PBXNativeTarget "Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1142D8A42A3CDFAC000B1316 /* Debug */,
